@@ -224,12 +224,13 @@ body {
 }
 
 .Featurs .container .fet h3 {
-    margin: 30px;
+    margin: 25px;
+    font-size: 17px;
     font-weight: 800;
 }
 
 .Featurs .container .fet p {
-    font-size: 17px;
+    font-size: 14px;
     line-height: var(--main-line-hieght);
 }
 
@@ -322,6 +323,7 @@ body {
 
 .card{
     background-color: white;
+    box-shadow: 5px 5px 5px 0.5px #c9c8c8;
 }
 .card img{
     width: 100%;
