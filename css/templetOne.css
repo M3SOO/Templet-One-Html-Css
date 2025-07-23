@@ -258,7 +258,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     color: #7c7c7c;
-    min-height: 170px;
+    min-height: 190px;
 }
 
 .Services .container .services-content .col .serv .icon {
@@ -267,7 +267,7 @@ body {
     color: var(--main-color);
 }
 
-@media (max-width:767px) {
+@media (max-width:659px) {
     .Services .container .services-content {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
@@ -275,6 +275,10 @@ body {
     .Services .container .services-content .col .serv {
         flex-direction: column;
         flex-wrap: nowrap;
+    }
+
+    .Services .container .services-content .col .serv .serv-content p {
+        min-height: auto;
     }
 }
 
